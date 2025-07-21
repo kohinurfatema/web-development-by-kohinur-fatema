@@ -1,0 +1,59 @@
+
+
+
+.display-flex{
+    display: flex;
+}
+.navbar{
+    justify-content: space-between;
+}
+.navbar .banner-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.brand{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgba(58, 58, 58, 1);
+}
+nav ul li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 30px;
+}
+nav ul a{
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+}
+.start{
+    font-weight: bold;
+    font-size: 3.25rem;
+    color: rgba(58, 58, 58, 1);
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 200px;    
+}
+.lorem{
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgba(58, 58, 58, 1);
+}
+.btn-primary{
+    background-color:rgba(224, 44, 109, 1) ;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+.logos img{
+    margin-left: 50px;
+}
+.image{
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 90px;
+}
