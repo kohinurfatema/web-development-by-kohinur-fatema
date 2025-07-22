@@ -54,6 +54,29 @@ nav ul a{
 }
 .image{
     justify-content: center;
-    margin-left: 120px;
-    margin-top: 90px;
+    text-align: center;
+    margin-top: 50px;
+}
+.popular{
+    font-weight: 600;
+    font-size: 1.75rem;
+    color:rgba(58, 58, 58, 1) ;
+    text-align: center;
+}
+.airbuds{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px black;
+    margin-left: 50px;
+    padding: 10px;
+    
+}
+.stars{
+
+}
+.creating-img{
+}
+.creating-img img{
+    width: 100%;
 }
