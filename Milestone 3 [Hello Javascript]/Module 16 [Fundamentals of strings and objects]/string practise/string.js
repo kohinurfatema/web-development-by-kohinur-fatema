@@ -37,3 +37,7 @@ console.log(hasAllVowel);
 let word ="exam";
 let newWord = word.replace("x","y");
 console.log(newWord);
+
+
+//task5//
+
