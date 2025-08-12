@@ -33,4 +33,37 @@ console.log(result);
   //task3//
   function countVowels(str){
     let count = 0;
+    const vowels = "aeiouAEIOU";
+
+    for(const char of str){
+      if(vowels.includes(char)){
+        count++;
+      }
+    }
+    return count;
   }
+  let word = countVowels("hello world");
+  console.log(word);
+
+
+  //task4//
+  function findLongestWord(sentence){
+    let lengestWord = "";
+    const words = sentence.split(" ");
+
+    for(const word of words){
+      if (word.length > lengestWord.length){
+        lengestWord = word;
+      }
+    }
+    return lengestWord;
+  }
+  const sentence = "I am learing programming to become a programmer";
+  console.log(findLongestWord(sentence));
+
+
+  //task5//
+  function generateRandomNumber(){
+    return Math.floor(Math.random() * (20 - 10 + 1)) + 10;
+  }
+  console.log(generateRandomNumber());
